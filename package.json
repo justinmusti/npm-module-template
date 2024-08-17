@@ -1,0 +1,24 @@
+{
+  "name": "replace-me",
+  "version": "0.0.1",
+  "description": "NPM module creation starter template.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "browserify src/index.js > ./dist/index.js",
+    "webpack": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "create",
+    "starter",
+    "template"
+  ],
+  "author": "JustinMusti",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
